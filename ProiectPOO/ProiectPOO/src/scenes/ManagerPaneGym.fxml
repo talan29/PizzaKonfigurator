@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #ff6666;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerManagerPaneGym">
+   <children>
+      <TextField fx:id="equipmentField" layoutX="450.0" layoutY="164.0" prefHeight="25.0" prefWidth="333.0" promptText="Equipment name:" />
+      <TextField fx:id="quantityField" layoutX="450.0" layoutY="229.0" prefHeight="25.0" prefWidth="333.0" promptText="Quantity:" />
+      <Button fx:id="submit" layoutX="617.0" layoutY="469.0" mnemonicParsing="false" onAction="#submitAction" text="Submit" />
+      <ListView fx:id="EquipmentList" layoutX="59.0" layoutY="59.0" prefHeight="583.0" prefWidth="218.0" style="-fx-background-color: #ff1177;" />
+      <ListView fx:id="QuantityList" layoutX="277.0" layoutY="59.0" prefHeight="583.0" prefWidth="81.0" />
+   </children>
+</AnchorPane>

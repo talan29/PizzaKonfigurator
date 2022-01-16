@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #ff6677;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ControllerTrainerPaneDiet">
+   <children>
+      <TextField fx:id="Username" layoutX="269.0" layoutY="209.0" promptText="Username" />
+      <TextArea fx:id="Diet" layoutX="269.0" layoutY="276.0" prefHeight="200.0" prefWidth="200.0" promptText="Diet" />
+      <Button fx:id="submit" layoutX="595.0" layoutY="541.0" mnemonicParsing="false" onAction="#submitAction" text="Submit" />
+   </children>
+</AnchorPane>
